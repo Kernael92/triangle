@@ -1,20 +1,20 @@
-Function triangles (){
-var a = document.getElementById("AB").value);
-var b = document.getElementById("BC").value);
-var c = document.getElementById("CA").value);
+function triangles() {
+   var sideOne = parseInt(document.getElementById("AB").value);
+   var sideTwo = parseInt(document.getElementById("BC").value);
+   var sideThree = parseInt(document.getElementById("CA").value);
 
-   var a = AB;
-   var b = BC;
-   var c = CA;
+   var sideOne = AB;
+   var sideTwo = BC;
+   var sideThree = CA;
 
 
-if (AB === BC === CA)  {
+if (AB === BC && AB === CA) {
    alert("It is EQUILATERAL");
-} else if (AB === BC !== CA && CA === BC !== AB && AB === CA !== BC){
+} else if (AB === BC || AB === CA){
    alert("It is ISOSCELES");
-} else if (AB !== BC !== CA){
+} else if (AB !== BC && BC !== CA){
    alert("It is SCALENE");
-} else if(AB + BC <= CA || CA + AB <= BC || BC + CA <= AB){
+} else if(AB === BC <= CA ){
    alert("It is NOT A TRIANGLE");
 } else {
    alert("Try again");
