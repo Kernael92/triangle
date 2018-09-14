@@ -1,7 +1,7 @@
-Function triangles ()
-var a = document.getElementById("AB")
-var b = document.getElementById("BC")
-var c = document.getElementById("CA")
+Function triangles (){
+var a = document.getElementById("AB").value);
+var b = document.getElementById("BC").value);
+var c = document.getElementById("CA").value);
 
    var a = AB;
    var b = BC;
@@ -18,4 +18,5 @@ if (AB === BC === CA)  {
    alert("It is NOT A TRIANGLE");
 } else {
    alert("Try again");
+}
 }
