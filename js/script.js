@@ -16,5 +16,5 @@ if (AB===BC===CA)  {
 } else if(AB+BC<=CA || CA+AB<=BC || BC+CA<=AB){
    alert("It is NOT A TRIANGLE")
 } else {
-   alert(Try again)
+   alert("Try again")
 }
