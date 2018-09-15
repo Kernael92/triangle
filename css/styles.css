@@ -1,6 +1,15 @@
 h1{
    font-style: italic;
 }
-.container{
-   background-color: blue;
+body {
+   background-color: #006666;
+   background-image:url('../Image/images.jpg');
+   background-size: cover;
+
+}
+.content {
+   border: 25px black;
+   padding: 25px;
+   margin: 25px;
+   width: 500px;
 }
