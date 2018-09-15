@@ -3,16 +3,16 @@ function triangles() {
    var sideTwo = parseInt(document.getElementById("BC").value);
    var sideThree = parseInt(document.getElementById("CA").value);
 
-   var sideOne = AB;
-   var sideTwo = BC;
-   var sideThree = CA;
+   var AB = sideOne;
+   var BC = sideTwo;
+   var CA = sideThree;
 
 
 if (AB === BC && AB === CA) {
    alert("It is EQUILATERAL");
 } else if (AB === BC || AB === CA){
    alert("It is ISOSCELES");
-} else if (AB !== BC && BC !== CA){
+} else if (AB !== BC && AB !== CA){
    alert("It is SCALENE");
 } else if(AB === BC <= CA ){
    alert("It is NOT A TRIANGLE");
