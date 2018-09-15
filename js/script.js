@@ -12,7 +12,7 @@ if (AB === BC && AB === CA) {
    alert("It is EQUILATERAL");
 } else if (AB === BC || AB === CA){
    alert("It is ISOSCELES");
-} else if (AB !== BC && AB !== CA){
+} else if (AB !== BC && AB !== CA && CA !== BC){
    alert("It is SCALENE");
 } else if(AB + BC <= CA || AB + CA <= BC || CA + BC <= AB){
    alert("It is NOT A TRIANGLE");
