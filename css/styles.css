@@ -7,9 +7,11 @@ body {
    background-size: cover;
 
 }
-.content {
-   border: 25px black;
-   padding: 25px;
-   margin: 25px;
-   width: 500px;
+body {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   position: fixed;
+   align-items: center;
+   justify-content: center;
 }
