@@ -14,7 +14,7 @@ if (AB === BC && AB === CA) {
    alert("It is ISOSCELES");
 } else if (AB !== BC && AB !== CA && CA !== BC){
    alert("It is SCALENE");
-} else if(AB + BC <= CA || AB + CA <= BC || CA + BC <= AB){
+} else if( BC < CA || CA < BC || BC < AB){
    alert("It is NOT A TRIANGLE");
 } else {
    alert("Try again");
