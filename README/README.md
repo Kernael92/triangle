@@ -6,7 +6,7 @@
 ## Setup/Installation Requirements
 * MAKE SURE YOU HAVE A BROWSER, I RECOMMEND  GOOGLE CHROME INSTALLED ON YOUR DEVICE
 * RUN THE LINK BELOW AND FIND OUT THE TYPE OF YOUR TRIANGLE
-*
+*https://github.com/Kernael92/triangle/tree/gh-pages
 
 ## Known Bugs
 {NO MAJOR ISSUES ENCOUNTERED }
