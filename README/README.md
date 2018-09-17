@@ -9,7 +9,7 @@
 *https://github.com/Kernael92/triangle/tree/gh-pages
 ## Break down of the project
 * If all sides of the triangle are equal; for example 4,4,4 ; my output is EQUILATERAL
-* If only two sides of of the triangle are equal; 4,4,6; my output is ISOSCELES
+* If only two sides of the triangle are equal; 4,4,6; my output is ISOSCELES
 * If none of the sides of the triangle is equal to the other; 4,5,6 ; my output is SCALENE
 
 ## Known Bugs
