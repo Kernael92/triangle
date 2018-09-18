@@ -7,7 +7,7 @@
 * MAKE SURE YOU HAVE A BROWSER, I RECOMMEND  GOOGLE CHROME INSTALLED ON YOUR DEVICE
 * RUN THE LINK BELOW AND FIND OUT THE TYPE OF YOUR TRIANGLE
 *https://github.com/Kernael92/triangle/tree/gh-pages
-## Break down of the project
+## Behavior Driven Development
 * If all sides of the triangle are equal; for example 4,4,4 ; my output is EQUILATERAL
 * If only two sides of the triangle are equal; 4,4,6; my output is ISOSCELES
 * If none of the sides of the triangle is equal to the other; 4,5,6 ; my output is SCALENE
